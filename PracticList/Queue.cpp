@@ -26,7 +26,7 @@ public:
         }
     }
 
-    // Добавление элемента в конец очереди (FIFO)
+    // Добавление элемента в конец очереди
     void enqueue(T val) {
         auto* newNode = new ListNode<T>(val);
 

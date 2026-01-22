@@ -1,5 +1,5 @@
-#ifndef DOUBLY_NODE_CPP
-#define DOUBLY_NODE_CPP
+#ifndef LIST_NODE_CPP
+#define LIST_NODE_CPP
 
 // Базовый класс для узла списка
 template <typename T>
