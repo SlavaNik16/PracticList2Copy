@@ -1,0 +1,262 @@
+﻿  CircularLinkedList.cpp
+  CircularNode.cpp
+  DoublyLinkedList.cpp
+  ListNode.cpp
+  PracticList.cpp
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(10,17): error C2143: синтаксическая ошибка: отсутствие ";" перед "<"
+  (компиляция исходного файла "PracticList.cpp")
+      C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(10,17):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(8,7):
+          при компиляции шаблона класса "CircularLinkedList"
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(10,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(10,26): error C2238: непредвиденные лексемы перед ";"
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(15,28): error C3861: head: идентификатор не найден
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(23,14): error C2065: head: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(26,9): error C2065: CircularNode: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(26,23): error C3878: синтаксическая ошибка: непредвиденный токен ">" после "simple-type-specifier"
+  (компиляция исходного файла "PracticList.cpp")
+      C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(26,23):
+      отсутствует один из элементов '(' '{'?
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(26,23): error C3878: синтаксическая ошибка: непредвиденный токен ">" после "expression"
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(27,16): error C2065: last: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(27,30): error C2065: head: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(28,13): error C2065: last: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(28,20): error C2065: last: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(30,9): error C2065: last: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(33,9): error C2065: CircularNode: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(33,23): error C3878: синтаксическая ошибка: непредвиденный токен ">" после "simple-type-specifier"
+  (компиляция исходного файла "PracticList.cpp")
+      C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(33,23):
+      отсутствует один из элементов '(' '{'?
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(33,23): error C3878: синтаксическая ошибка: непредвиденный токен ">" после "expression"
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(34,16): error C2065: current: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(35,13): error C2065: CircularNode: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(35,27): error C3878: синтаксическая ошибка: непредвиденный токен ">" после "simple-type-specifier"
+  (компиляция исходного файла "PracticList.cpp")
+      C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(35,27):
+      отсутствует один из элементов '(' '{'?
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(35,27): error C3878: синтаксическая ошибка: непредвиденный токен ">" после "expression"
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(36,20): error C2065: current: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(37,13): error C2065: current: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(37,23): error C2065: nextNode: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(40,9): error C2065: head: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(46,9): error C2065: CircularNode: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(46,23): error C3878: синтаксическая ошибка: непредвиденный токен ">" после "simple-type-specifier"
+  (компиляция исходного файла "PracticList.cpp")
+      C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(46,23):
+      отсутствует один из элементов '(' '{'?
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(46,23): error C3878: синтаксическая ошибка: непредвиденный токен ">" после "expression"
+  (компиляция исходного файла "PracticList.cpp")
+      C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(46,59):
+      разбор возобновляется здесь
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(46,59): error C2760: синтаксическая ошибка: непредвиденный элемент ")". Ожидается ";"
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(46,59): error C3878: синтаксическая ошибка: непредвиденный токен ")" после "expression-statement"
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(48,14): error C2065: head: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(49,13): error C2065: head: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(49,20): error C2065: newNode: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(50,13): error C2065: head: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(50,26): error C2065: head: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(54,13): error C2065: CircularNode: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(54,27): error C3878: синтаксическая ошибка: непредвиденный токен ">" после "simple-type-specifier"
+  (компиляция исходного файла "PracticList.cpp")
+      C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(54,27):
+      отсутствует один из элементов '(' '{'?
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(54,27): error C3878: синтаксическая ошибка: непредвиденный токен ">" после "expression"
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(55,20): error C2065: last: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(55,34): error C2065: head: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(56,17): error C2065: last: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(56,24): error C2065: last: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(60,13): error C2065: last: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(60,26): error C2065: newNode: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(61,13): error C2065: newNode: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(61,29): error C2065: head: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(67,14): error C2065: head: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(67,14): error C3861: head: идентификатор не найден
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(69,21): error C3861: head: идентификатор не найден
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(73,25): error C3861: head: идентификатор не найден
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(69,21): error C2065: head: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(73,25): error C2065: head: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(79,14): error C2065: head: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(79,22): error C2065: head: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(79,36): error C2065: head: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(82,9): error C2065: CircularNode: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(82,23): error C3878: синтаксическая ошибка: непредвиденный токен ">" после "simple-type-specifier"
+  (компиляция исходного файла "PracticList.cpp")
+      C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(82,23):
+      отсутствует один из элементов '(' '{'?
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(82,23): error C3878: синтаксическая ошибка: непредвиденный токен ">" после "expression"
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(83,9): error C2065: CircularNode: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(83,23): error C3878: синтаксическая ошибка: непредвиденный токен ">" после "simple-type-specifier"
+  (компиляция исходного файла "PracticList.cpp")
+      C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(83,23):
+      отсутствует один из элементов '(' '{'?
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(83,23): error C3878: синтаксическая ошибка: непредвиденный токен ">" после "expression"
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(87,13): error C2065: current: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(87,23): error C2065: head: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(90,20): error C2065: current: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(90,37): error C2065: head: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(90,45): error C2065: current: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(90,62): error C2065: last: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(91,21): error C2065: current: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(91,37): error C2065: current: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(93,30): error C2065: current: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(94,21): error C2065: current: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(94,37): error C2065: current: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(95,21): error C2065: current: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(98,17): error C2065: current: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(98,27): error C2065: current: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(100,13): error C2065: last: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(100,20): error C2065: current: необъявленный идентификатор
+  (компиляция исходного файла "PracticList.cpp")
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\PracticList.cpp(58,9): error C2039: "save": не является членом "CircularLinkedList<float>".
+      C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(8,7):
+       см. объявление "CircularLinkedList<float>"
+  
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\PracticList.cpp(60,9): error C2039: "save": не является членом "CircularLinkedList<float>".
+      C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList\PracticList\CircularLinkedList.cpp(8,7):
+       см. объявление "CircularLinkedList<float>"
+  
+  Создание кода...

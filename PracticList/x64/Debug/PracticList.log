@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList2Copy\PracticList\main.cpp(41,20): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList2Copy\PracticList\main.cpp(42,26): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList2Copy\PracticList\main.cpp(50,26): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  PracticList.vcxproj -> C:\Users\Николаев Вячеслав\Desktop\4 курс материалы\ЛЭТИ\Программирование с++\Code\PracticList2Copy\x64\Debug\PracticList.exe
