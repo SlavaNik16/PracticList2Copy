@@ -64,17 +64,15 @@ int main() {
 
     float value;
     while (list.tryDequeue(value)) {
-        if (value >= from && value <= to) {
-            circle.add(value);
-        }
+         circle.add(value);
     }
 
-    cout << "Внутри диапозона числа: ";
+    cout << "Все числа в списке: ";
     circle.show();
 
-    circle.sort();
+    circle.sortInRange(from, to);
 
-    cout << "\nВнутри диапозона числа (Сортировка по возврастанию): ";
+    cout << "\nПосле ранжирования: ";
     circle.show();
 
     cout << "\nПишем данные в файл...";

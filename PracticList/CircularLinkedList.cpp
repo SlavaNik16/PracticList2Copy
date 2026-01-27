@@ -87,29 +87,103 @@ public:
         cout << endl;
     }
 
-    void sort() {
+    void sortInRange(T minVal, T maxVal) {
         if (!head || head->next == head) return;
 
+        // 1. Подсчитываем количество элементов в диапазоне
+        CircularNode<T>* current = head;
+        int inRangeCount = 0;
+        int totalElements = 0;
+
+        do {
+            totalElements++;
+            if (current->data >= minVal && current->data <= maxVal) {
+                inRangeCount++;
+            }
+            current = current->next;
+        } while (current != head);
+
+        // 2. Пузырьковая сортировка с учетом разделения
         bool swapped;
-        CircularNode<T>* current;
-        CircularNode<T>* last = nullptr;
+        CircularNode<T>* lastSorted = nullptr;
+        int sortedCount = 0;
 
         do {
             swapped = false;
             current = head;
+            CircularNode<T>* prev = nullptr;
+            int position = 0;
 
-            // Проходим по списку до последнего отсортированного элемента
-            while (current->next != head && current->next != last) {
-                if (current->data > current->next->data) {
-                    // Меняем данные, а не узлы (проще и быстрее)
+            do {
+                CircularNode<T>* nextNode = current->next;
+
+                // Проверяем, нужно ли менять местами
+                bool shouldSwap = false;
+
+                if (nextNode != head) {
+                    // Определяем, в каких частях находятся элементы
+                    bool currentInRange = false;
+                    bool nextInRange = false;
+
+                    // Считаем, сколько элементов в диапазоне мы прошли
+                    CircularNode<T>* checkNode = head;
+                    int currentInRangeCount = 0;
+                    int nextInRangeCount = 0;
+
+                    for (int i = 0; i <= position; i++) {
+                        if (checkNode->data >= minVal && checkNode->data <= maxVal) {
+                            currentInRangeCount++;
+                        }
+                        checkNode = checkNode->next;
+                    }
+
+                    checkNode = head;
+                    for (int i = 0; i <= position + 1; i++) {
+                        if (checkNode->data >= minVal && checkNode->data <= maxVal) {
+                            nextInRangeCount++;
+                        }
+                        checkNode = checkNode->next;
+                    }
+
+                    currentInRange = (current->data >= minVal && current->data <= maxVal);
+                    nextInRange = (nextNode->data >= minVal && nextNode->data <= maxVal);
+
+                    // Правила сравнения:
+                    // 1. Если оба в диапазоне или оба вне диапазона - сравниваем значения
+                    // 2. Если первый вне диапазона, а второй в диапазоне - меняем местами
+                    // 3. Если первый в диапазоне, а второй нет - не меняем
+
+                    if (currentInRange && nextInRange) {
+                        // Оба в диапазоне
+                        shouldSwap = current->data > nextNode->data;
+                    }
+                    else if (!currentInRange && !nextInRange) {
+                        // Оба вне диапазона
+                        shouldSwap = current->data > nextNode->data;
+                    }
+                    else if (!currentInRange && nextInRange) {
+                        // Текущий вне диапазона, следующий в диапазоне
+                        // Нужно переместить следующий (в диапазоне) вперед
+                        shouldSwap = true;
+                    }
+                }
+
+                if (shouldSwap) {
                     T temp = current->data;
-                    current->data = current->next->data;
-                    current->next->data = temp;
+                    current->data = nextNode->data;
+                    nextNode->data = temp;
                     swapped = true;
                 }
-                current = current->next;
-            }
-            last = current;
+
+                prev = current;
+                current = nextNode;
+                position++;
+
+            } while (current->next != head && current->next != lastSorted);
+
+            lastSorted = current;
+            sortedCount++;
+
         } while (swapped);
     }
 };
