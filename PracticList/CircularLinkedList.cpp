@@ -63,32 +63,41 @@ public:
         size++;
     }
 
-    void save(ofstream& f) {
+    void save(ofstream& f, int inRange = -1) {
         if (!head) return;
 
         auto* cur = head;
-
+        auto count = 0;
         do {
             f << cur->data << " ";
+            count++;
+            if (inRange != -1 && count == inRange) {
+                f << "| ";
+            }
             cur = cur->next;
         } while (cur != head);
     }
 
 
-    void show() {
+    void show(int inRange = -1) {
         if (!head) return;
 
         auto* cur = head;
+        auto count = 0;
         do {
             cout << cur->data << " ";
+            count++;
+            if (inRange != -1 && count == inRange) {
+                cout << "| ";
+            }
             cur = cur->next;
         } while (cur != head);
 
         cout << endl;
     }
 
-    void sortInRange(T minVal, T maxVal) {
-        if (!head || head->next == head) return;
+    int sortInRange(T minVal, T maxVal) {
+        if (!head || head->next == head) return -1;
 
         // 1. Подсчитываем количество элементов в диапазоне
         CircularNode<T>* current = head;
@@ -185,5 +194,7 @@ public:
             sortedCount++;
 
         } while (swapped);
+
+        return inRangeCount;
     }
 };

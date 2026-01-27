@@ -70,14 +70,14 @@ int main() {
     cout << "Все числа в списке: ";
     circle.show();
 
-    circle.sortInRange(from, to);
+    auto count = circle.sortInRange(from, to);
 
     cout << "\nПосле ранжирования: ";
-    circle.show();
+    circle.show(count);
 
     cout << "\nПишем данные в файл...";
     ofstream out("output.txt");
-    circle.save(out);
+    circle.save(out, count);
     out << "\nТекущий диапазон: ["<<from << "," << to << "] ";
     out.close();
 
